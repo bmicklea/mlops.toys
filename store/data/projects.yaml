@@ -1212,3 +1212,35 @@
   logo: /images/projects/deploifai.svg
   introLogoVisible: true
   gitHubRepoName: deploifai/examples
+- name: KitOps
+  buttonText: Try KitOps
+  link: https://kitops.ml/docs/quick-start.html
+  category: Data Versioning
+    worksWellWith:
+    - [AWS/Azure/GCP]
+    - [MLFlow]
+    - [Kubernetes]
+    - [Jupyter]
+  description: >-
+    KitOps is a packaging and versioning system for AI/ML projects that uses open standards so it works with the AI/ML, development, and DevOps tools you are already using.
+    
+    KitOps simplifies the handoffs between data scientists, application developers, and SREs working with LLMs and other AI/ML models. KitOps' ModelKits are a standards-based package for models, their dependencies, configurations, and codebases. ModelKits are portable, reproducible, and work with the tools you already use.
+    
+    KitOps doesn't require adding any code to your project and works with any tooling, pipeline, and inference / serving infrastructure.
+
+    Features
+    🎁 Unified packaging: A ModelKit package includes models, datasets, configurations, and code. Add as much or as little as your project needs.
+    🏭 Versioning: Each ModelKit is tagged so everyone knows which dataset and model work together.
+    🤖 Automation: Pack or unpack a ModelKit locally or as part of your CI/CD workflow for testing, integration, or deployment.
+    ✅ No code: Unlike other packaging solutions KitOps requires no code changes so you can get started quickly.
+    🔒 Tamper-proofing: Each ModelKit package includes a SHA digest for itself, and every artifact it holds.
+    🌈 Standards-based: Store ModelKits in any container or artifact registry.
+    🤗 Flexible: ModelKits can be used with any AI, ML, or LLM project - even multi-modal models.
+    🏃‍♂️‍➡️ Run locally: Kit's Dev Mode lets your run an LLM locally, configure it, and prompt/chat with it instantly.
+    🐳 Deploy containers: Generate a Docker container as part of your kit unpack.
+    🚢 Kubernetes-ready: Generate a Kubernetes / KServe deployment config as part of your kit unpack.
+    📝 Signed packages: ModelKits and their assets can be signed so you can be confident of their provenance.
+  logo: /images/projects/kitops.png
+  introLogoVisible: true
+  gitHubRepoName: jozu-ai/kitops
+  youTubeVideoId: j2qjHf2HzSQ
