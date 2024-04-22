@@ -1216,7 +1216,7 @@
   buttonText: Try KitOps
   link: https://kitops.ml/docs/quick-start.html
   category: Data Versioning
-    worksWellWith:
+  worksWellWith:
     - [AWS/Azure/GCP]
     - [MLFlow]
     - [Kubernetes]
